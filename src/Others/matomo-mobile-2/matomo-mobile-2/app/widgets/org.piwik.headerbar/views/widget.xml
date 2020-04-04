@@ -1,0 +1,9 @@
+<Alloy>
+    <View id="headerBar" platform="android">
+        <View id="backButton">
+            <View id="homeIcon"/>
+        </View>
+        <Label id="headerTitle"/>
+        <View id="actionButtons"/>
+    </View>
+</Alloy>

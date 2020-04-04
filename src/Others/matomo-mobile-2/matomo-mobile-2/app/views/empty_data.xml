@@ -1,0 +1,17 @@
+<Alloy>
+    <ScrollView class="container" id="index">
+
+        <View class="centerContainer">
+            <ImageView id="icon"/>
+
+            <Label id="title"/>
+
+            <Label id="message"/>
+
+            <View class="refreshContainer" onClick="refresh">
+                <Button id="refresh"/>
+            </View>
+        </View>
+
+    </ScrollView>
+</Alloy>

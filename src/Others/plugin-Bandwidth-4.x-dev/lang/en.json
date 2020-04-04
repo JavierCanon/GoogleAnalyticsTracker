@@ -1,0 +1,14 @@
+{
+    "Bandwidth": {
+        "Bandwidth": "Bandwidth",
+        "ColumnAvgBandwidth": "Avg. Bandwidth",
+        "ColumnSumBandwidth": "Sum Bandwidth",
+        "ColumnMaxBandwidth": "Max Bandwidth",
+        "ColumnMinBandwidth": "Min Bandwidth",
+        "ColumnHitsWithBandwidth": "Recorded hits with bandwidth",
+        "ColumnTotalOverallBandwidth": "Bytes transferred overall",
+        "ColumnTotalPageviewBandwidth": "Bytes transferred pageviews",
+        "ColumnTotalDownloadBandwidth": "Bytes transferred downloads",
+        "SparklineTotalBandwidthDetails": "%s bytes transferred overall"
+    }
+}

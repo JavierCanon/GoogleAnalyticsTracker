@@ -1,0 +1,7 @@
+{
+    "require-dev": {
+        "php": ">=5.4.0",
+        "phpunit/phpunit": "^4.8.36",
+        "guzzlehttp/guzzle": "^5.0"
+    }
+}

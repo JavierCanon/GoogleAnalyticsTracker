@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<result>
+	<row>
+		<label>The Fowl Wind</label>
+		<revenue>99322.0</revenue>
+		<quantity>53</quantity>
+		<orders>26</orders>
+		<nb_visits>0</nb_visits>
+		<nb_actions>26</nb_actions>
+		<avg_price>72.08</avg_price>
+		<avg_quantity>2</avg_quantity>
+		<conversion_rate>0%</conversion_rate>
+	</row>
+	<row>
+		<label>Mask of the Grand Duchess</label>
+		<revenue>83860.0</revenue>
+		<quantity>35</quantity>
+		<orders>18</orders>
+		<nb_visits>0</nb_visits>
+		<nb_actions>18</nb_actions>
+		<avg_price>133.11</avg_price>
+		<avg_quantity>1.9</avg_quantity>
+		<conversion_rate>0%</conversion_rate>
+	</row>
+	<row>
+		<label>Earnest Reprisal</label>
+		<revenue>79917.0</revenue>
+		<quantity>51</quantity>
+		<orders>24</orders>
+		<nb_visits>0</nb_visits>
+		<nb_actions>24</nb_actions>
+		<avg_price>65.29</avg_price>
+		<avg_quantity>2.1</avg_quantity>
+		<conversion_rate>0%</conversion_rate>
+	</row>
+	<row>
+		<label>Path to Glory</label>
+		<revenue>79355.0</revenue>
+		<quantity>59</quantity>
+		<orders>29</orders>
+		<nb_visits>0</nb_visits>
+		<nb_actions>29</nb_actions>
+		<avg_price>46.38</avg_price>
+		<avg_quantity>2</avg_quantity>
+		<conversion_rate>0%</conversion_rate>
+	</row>
+	<row>
+		<label>Misfortune's Bite</label>
+		<revenue>67488.0</revenue>
+		<quantity>32</quantity>
+		<orders>17</orders>
+		<nb_visits>0</nb_visits>
+		<nb_actions>17</nb_actions>
+		<avg_price>124.06</avg_price>
+		<avg_quantity>1.9</avg_quantity>
+		<conversion_rate>0%</conversion_rate>
+	</row>
+	<row>
+		<label>Curse of Morrac</label>
+		<revenue>51760.0</revenue>
+		<quantity>40</quantity>
+		<orders>20</orders>
+		<nb_visits>0</nb_visits>
+		<nb_actions>20</nb_actions>
+		<avg_price>64.7</avg_price>
+		<avg_quantity>2</avg_quantity>
+		<conversion_rate>0%</conversion_rate>
+	</row>
+	<row>
+		<label>Helm of Drasca</label>
+		<revenue>38367.0</revenue>
+		<quantity>49</quantity>
+		<orders>23</orders>
+		<nb_visits>0</nb_visits>
+		<nb_actions>23</nb_actions>
+		<avg_price>34.04</avg_price>
+		<avg_quantity>2.1</avg_quantity>
+		<conversion_rate>0%</conversion_rate>
+	</row>
+	<row>
+		<label>The Last Word</label>
+		<revenue>27636.0</revenue>
+		<quantity>28</quantity>
+		<orders>15</orders>
+		<nb_visits>0</nb_visits>
+		<nb_actions>15</nb_actions>
+		<avg_price>65.8</avg_price>
+		<avg_quantity>1.9</avg_quantity>
+		<conversion_rate>0%</conversion_rate>
+	</row>
+	<row>
+		<label>Masterwork Prowler Armor</label>
+		<revenue>19488.0</revenue>
+		<quantity>56</quantity>
+		<orders>27</orders>
+		<nb_visits>0</nb_visits>
+		<nb_actions>27</nb_actions>
+		<avg_price>12.89</avg_price>
+		<avg_quantity>2.1</avg_quantity>
+		<conversion_rate>0%</conversion_rate>
+	</row>
+	<row>
+		<label>Keen Wyvern Vitaar</label>
+		<revenue>210.0</revenue>
+		<quantity>21</quantity>
+		<orders>11</orders>
+		<nb_visits>0</nb_visits>
+		<nb_actions>11</nb_actions>
+		<avg_price>0.91</avg_price>
+		<avg_quantity>1.9</avg_quantity>
+		<conversion_rate>0%</conversion_rate>
+	</row>
+</result>

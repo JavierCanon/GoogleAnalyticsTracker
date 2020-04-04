@@ -1,0 +1,6 @@
+<Alloy>
+    <Collection src="piwikProcessedReport" id="piwikProcessedReport" instance="true"/>
+    <View id="index" onPostlayout="renderStatisticsIfViewIsInViewport">
+        <Label id="loading"/>
+    </View>
+</Alloy>

@@ -1,0 +1,17 @@
+{
+    "LogViewer": {
+        "LogViewer": "Lokien katselu",
+        "Severity": "Vakavuus",
+        "AnySeverity": "Kaikki vakavuudet",
+        "SearchPattern": "Haku",
+        "SearchHelp": "Haku ei välitä kirjainkoosta. Jos \"regular expressions\"-toiminto on käytössä, osa merkeistä - esimerkiksi '[' - pitää aloittaa kenoviivalla (esim. '\\[').",
+        "Tag": "Tagi",
+        "RequestId": "Kyselyn ID",
+        "Message": "Viesti",
+        "NoSupportedLogWriterConfiguredTitle": "Tuettua lokienkirjoitinta ei ole otettu käyttöön",
+        "UseRegExp": "Käytä säännöllisiä lausekkeita",
+        "ClickToSearchForThis": "Klikkaa hakeaksesi tällä hakuehdolla",
+        "CurrentLogConfigIs": "Lokien kirjoitus on käytössä: %s, klikkaa lisätietoja lokien asetuksista.",
+        "ExportThisSearch": "Vie tämä haku %1$s sisältäen viimeisimmät %2$s tietueet. Lataaminen saattaa kestää hetken..."
+    }
+}

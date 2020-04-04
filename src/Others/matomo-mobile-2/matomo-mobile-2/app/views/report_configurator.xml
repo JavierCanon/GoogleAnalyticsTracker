@@ -1,0 +1,26 @@
+<Alloy>
+    <Collection src="piwikWebsites" id="piwikWebsites" instance="true"/>
+
+    <View id="index">
+        <TableView id="configTable" dataTransform="transformWebsite" dataCollection="$.piwikWebsites" onClick="selectWebsite">
+            <HeaderView>
+                <View class="headerView">
+                    <View class="websitePicker">
+                        <Require src="website_picker" onSelected="hideRightSidebar"/>
+                    </View>
+                    <View class="segmentPicker">
+                        <Require src="segment_picker" onSelected="hideRightSidebar"/>
+                    </View>
+                    <View class="datePicker">
+                        <Require src="date_picker" onSelected="hideRightSidebar"/>
+                    </View>
+                    <View class="separator"/>
+                    <View class="siteHeader">
+                        <Label id="siteTitle" />
+                    </View>
+                </View>
+            </HeaderView>
+            <TableViewRow class="websiteRow" idsite="{idsite}" rightImage="{rightImage}" modelid="{id}" title="{name}"/>
+        </TableView>
+    </View>
+</Alloy>

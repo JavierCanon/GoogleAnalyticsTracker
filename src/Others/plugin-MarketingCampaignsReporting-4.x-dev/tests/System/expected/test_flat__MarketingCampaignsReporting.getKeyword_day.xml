@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<result>
+	<row>
+		<label>ecommerce_keyword</label>
+		<nb_uniq_visitors>1</nb_uniq_visitors>
+		<nb_visits>2</nb_visits>
+		<nb_actions>2</nb_actions>
+		<nb_users>0</nb_users>
+		<max_actions>1</max_actions>
+		<sum_visit_length>1444</sum_visit_length>
+		<bounce_count>2</bounce_count>
+		<nb_visits_converted>1</nb_visits_converted>
+		<goals>
+			<row idgoal='ecommerceAbandonedCart'>
+				<nb_conversions>1</nb_conversions>
+				<nb_visits_converted>1</nb_visits_converted>
+				<revenue>555</revenue>
+				<items>5</items>
+			</row>
+			<row idgoal='ecommerceOrder'>
+				<nb_conversions>1</nb_conversions>
+				<nb_visits_converted>1</nb_visits_converted>
+				<revenue>555</revenue>
+				<revenue_subtotal>0</revenue_subtotal>
+				<revenue_tax>0</revenue_tax>
+				<revenue_shipping>0</revenue_shipping>
+				<revenue_discount>0</revenue_discount>
+				<items>5</items>
+			</row>
+		</goals>
+		<nb_conversions>1</nb_conversions>
+		<revenue>555</revenue>
+		<MarketingCampaignsReporting_CampaignKeyword>ecommerce_keyword</MarketingCampaignsReporting_CampaignKeyword>
+		<segment>campaignKeyword==ecommerce_keyword</segment>
+	</row>
+	<row>
+		<label>mot_clé_pépère</label>
+		<nb_uniq_visitors>2</nb_uniq_visitors>
+		<nb_visits>2</nb_visits>
+		<nb_actions>2</nb_actions>
+		<nb_users>0</nb_users>
+		<max_actions>1</max_actions>
+		<sum_visit_length>0</sum_visit_length>
+		<bounce_count>2</bounce_count>
+		<nb_visits_converted>0</nb_visits_converted>
+		<MarketingCampaignsReporting_CampaignKeyword>mot_clé_pépère</MarketingCampaignsReporting_CampaignKeyword>
+		<segment>campaignKeyword==mot_cl%C3%A9_p%C3%A9p%C3%A8re</segment>
+	</row>
+	<row>
+		<label>keyword from #hash tag parameter</label>
+		<nb_uniq_visitors>1</nb_uniq_visitors>
+		<nb_visits>1</nb_visits>
+		<nb_actions>1</nb_actions>
+		<nb_users>0</nb_users>
+		<max_actions>1</max_actions>
+		<sum_visit_length>0</sum_visit_length>
+		<bounce_count>1</bounce_count>
+		<nb_visits_converted>0</nb_visits_converted>
+		<MarketingCampaignsReporting_CampaignKeyword>keyword from #hash tag parameter</MarketingCampaignsReporting_CampaignKeyword>
+		<segment>campaignKeyword==keyword+from+%23hash+tag+parameter</segment>
+	</row>
+	<row>
+		<label>lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;k</label>
+		<nb_uniq_visitors>1</nb_uniq_visitors>
+		<nb_visits>1</nb_visits>
+		<nb_actions>1</nb_actions>
+		<nb_users>0</nb_users>
+		<max_actions>1</max_actions>
+		<sum_visit_length>0</sum_visit_length>
+		<bounce_count>1</bounce_count>
+		<nb_visits_converted>0</nb_visits_converted>
+		<MarketingCampaignsReporting_CampaignKeyword>lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;keyword&quot;...lenghty &quot;k</MarketingCampaignsReporting_CampaignKeyword>
+		<segment>campaignKeyword==lenghty+%22keyword%22...lenghty+%22keyword%22...lenghty+%22keyword%22...lenghty+%22keyword%22...lenghty+%22keyword%22...lenghty+%22keyword%22...lenghty+%22keyword%22...lenghty+%22keyword%22...lenghty+%22keyword%22...lenghty+%22keyword%22...lenghty+%22keyword%22...lenghty+%22keyword%22...lenghty+%22k</segment>
+	</row>
+	<row>
+		<label>not_an_advanced_campaign_at_first</label>
+		<nb_uniq_visitors>1</nb_uniq_visitors>
+		<nb_visits>1</nb_visits>
+		<nb_actions>1</nb_actions>
+		<nb_users>0</nb_users>
+		<max_actions>1</max_actions>
+		<sum_visit_length>0</sum_visit_length>
+		<bounce_count>1</bounce_count>
+		<nb_visits_converted>0</nb_visits_converted>
+		<MarketingCampaignsReporting_CampaignKeyword>not_an_advanced_campaign_at_first</MarketingCampaignsReporting_CampaignKeyword>
+		<segment>campaignKeyword==not_an_advanced_campaign_at_first</segment>
+	</row>
+</result>

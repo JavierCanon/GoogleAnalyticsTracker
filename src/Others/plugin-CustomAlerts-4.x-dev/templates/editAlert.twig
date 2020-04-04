@@ -1,0 +1,9 @@
+{% extends 'admin.twig' %}
+
+{% block content %}
+
+{% include "@CustomAlerts/form.twig" with {
+    headline: 'CustomAlerts_EditAlert'|translate
+} %}
+
+{% endblock %}

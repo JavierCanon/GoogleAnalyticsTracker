@@ -1,0 +1,16 @@
+<Alloy>
+    <View id="index">
+        <View class="header" onClick="openReport">
+            <Label id="metric"/>
+            <Label id="metric_value"/>
+        </View>
+        <View class="separator"/>
+        <View class="content" id="content">
+            <Require src="graph" id="graphCtrl"/>
+        </View>
+        <View class="separator"/>
+        <View class="footer" onClick="openReport">
+            <Label class="more"/>
+        </View>
+    </View>
+</Alloy>

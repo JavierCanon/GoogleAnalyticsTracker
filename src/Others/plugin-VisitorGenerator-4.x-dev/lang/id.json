@@ -1,0 +1,13 @@
+{
+    "VisitorGenerator": {
+        "VisitorGenerator": "Pembangkit Kunjungan",
+        "Warning": "Anda akan menghasilkan kunjungan palsu yang akan disimpan dalam basisdata Matomo Anda.",
+        "NotReversible": "Ini %1$s tidak%2$s mungkin mudah menghapus kunjungan tersebut dari catatan Matomo.",
+        "AreYouSure": "Apakah Anda yakin membuat kunjungan palsu?",
+        "ChoiceYes": "Ya, saya yakin!",
+        "Submit": "Kirim",
+        "SelectWebsite": "Pilih Situs",
+        "NbRequestsPerSec": "Permintaan tiap detik",
+        "DaysToCompute": "Hari untuk dihitung"
+    }
+}

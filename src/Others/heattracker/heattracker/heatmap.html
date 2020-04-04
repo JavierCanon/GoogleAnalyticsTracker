@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #heat-page {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        #heat-canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<iframe id="heat-page" src="index.html"></iframe>
+<canvas id="heat-canvas"></canvas>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    // set height of canvas to the height of content inside iframe
+    $('#heat-page').on("load",function() {
+        $('#heat-canvas').height($(this).contents().height());
+
+        var canva = document.getElementById("heat-canvas");
+        var ctx = canva.getContext("2d");
+
+        // Create gradient
+        var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
+        grd.addColorStop(0, "red");
+        grd.addColorStop(1, "white");
+
+        // Fill with gradient
+        ctx.fillStyle = grd;
+        ctx.fillRect(50, 50, 20, 20);
+        ctx.fillRect(55, 55, 20, 20);
+        ctx.fillRect(20, 20, 10, 10);
+        ctx.fillRect(25, 25, 10, 10);
+    });
+</script>
+</body>
+</html>

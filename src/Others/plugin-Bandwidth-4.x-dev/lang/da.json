@@ -1,0 +1,14 @@
+{
+    "Bandwidth": {
+        "Bandwidth": "Båndbredde",
+        "ColumnAvgBandwidth": "Gennemsnitlig båndbredde",
+        "ColumnSumBandwidth": "Sum båndbredde",
+        "ColumnMaxBandwidth": "Maks. båndbredde",
+        "ColumnMinBandwidth": "Min. båndbredde",
+        "ColumnHitsWithBandwidth": "Registrerede hits med båndbredde",
+        "ColumnTotalOverallBandwidth": "Bytes samlet overført",
+        "ColumnTotalPageviewBandwidth": "Bytes overført ved sidevisninger",
+        "ColumnTotalDownloadBandwidth": "Bytes overført ved filhentning",
+        "SparklineTotalBandwidthDetails": "%s bytes overført samlet"
+    }
+}

@@ -1,0 +1,12 @@
+<Alloy>
+    <View id="index" onClick="chooseDate">
+        <View class="button">
+            <View class="topLine"/>
+            <View class="inner">
+                <Label id="dateLabel" text=" - "/>
+                <ImageView class="icon"/>
+            </View>
+            <View class="bottomLine"/>
+        </View>
+    </View>
+</Alloy>

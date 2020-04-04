@@ -1,0 +1,24 @@
+{
+    "name": "SecurityInfo",
+    "version": "4.0.0",
+    "description": "Provides security information about your PHP environment and offers suggestions based on PhpSecInfo from the PHP Security Consortium.",
+    "keywords": ["security","phpsec"],
+    "license": "GPL v3+",
+    "homepage": "https://matomo.org",
+    "require": {
+        "matomo": ">=4.0.0-b1,<5.0.0-b1"
+    },
+
+    "support": {
+        "issues": "https://github.com/matomo-org/plugin-SecurityInfo/issues",
+        "forum": "https://forum.matomo.org",
+        "source": "https://github.com/matomo-org/plugin-SecurityInfo"
+    },
+    "authors": [
+        {
+            "name": "Matomo",
+            "email": "hello@matomo.org",
+            "homepage": "https://matomo.org"
+        }
+    ]
+}

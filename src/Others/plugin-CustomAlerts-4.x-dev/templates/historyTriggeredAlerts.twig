@@ -1,0 +1,19 @@
+{% extends 'admin.twig' %}
+
+{% import '@CustomAlerts/macros.twig' as alertsMacro %}
+
+{% block content %}
+
+    <div class="alerts" piwik-content-block
+         content-title="{{ 'CustomAlerts_AlertsHistory'|translate|e('html_attr') }}">
+
+        {{ alertsFormatted|raw }}
+
+        <div class="tableActionBar">
+            <a href="{{ linkTo({'module': 'CustomAlerts', 'action': 'index'}) }}">
+                <span class="icon-table"></span> {{ 'CustomAlerts_ManageAlerts'|translate }}
+            </a>
+        </div>
+
+    </div>
+{% endblock %}

@@ -1,0 +1,12 @@
+<Alloy>
+    <Window module="xp.ui" id="index" class="container" onOpen="onOpen">
+        
+        <Widget src="org.piwik.headerbar" 
+                id="headerBar" 
+                onBack="close"
+                platform="android" />
+
+        <TableView id="visitorTable">
+        </TableView>
+    </Window>
+</Alloy>

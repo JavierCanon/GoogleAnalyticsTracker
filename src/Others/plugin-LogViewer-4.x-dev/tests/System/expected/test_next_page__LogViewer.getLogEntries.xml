@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<result>
+	<row>
+		<severity>DEBUG</severity>
+		<tag>Piwik\Common</tag>
+		<datetime>2015-05-19 08:21:01</datetime>
+		<requestId>7c7d2</requestId>
+		<message>'idsite' =&gt; '1',</message>
+	</row>
+	<row>
+		<severity>WARNING</severity>
+		<tag>Dashboard</tag>
+		<datetime>2015-05-19 04:45:42</datetime>
+		<requestId>2c4ce</requestId>
+		<message>/home/vagrant/www/piwik/core/Plugin/Widget.php(52): Recoverable Error - Argument 1 passed to Piwik\Plugin\Widget::configureWidgetsList() must be an instance of Piwik\Widget\WidgetsList, instance of Piwik\WidgetsList given, called in /home/vagrant/www/piwik/core/WidgetsList.php on line 122 and defined - Piwik 2.13.1</message>
+	</row>
+	<row>
+		<severity>WARNING</severity>
+		<tag>Live</tag>
+		<datetime>2015-05-19 04:45:41</datetime>
+		<requestId>2c4ce</requestId>
+		<message>/home/vagrant/www/piwik/plugins/Live/Widgets/GetVisitorProfilePopup.php(34): Recoverable Error - Argument 1 passed to Piwik\Plugins\Live\Widgets\GetVisitorProfilePopup::configureWidgetsList() must be an instance of Piwik\Widget\WidgetsList, instance of Piwik\WidgetsList given, called in /home/vagrant/www/piwik/core/WidgetsList.php on line 122 and defined - Piwik 2.13.1</message>
+	</row>
+	<row>
+		<severity>WARNING</severity>
+		<tag>Dashboard</tag>
+		<datetime>2015-05-19 04:45:40</datetime>
+		<requestId>2c4ce</requestId>
+		<message>/home/vagrant/www/piwik/core/Plugin/Widget.php(51): Recoverable Error - Argument 1 passed to Piwik\Plugin\Widget::configureWidgetsList() must be an instance of Piwik\Widget\WidgetsList, instance of Piwik\WidgetsList given, called in /home/vagrant/www/piwik/core/WidgetsList.php on line 122 and defined - Piwik 2.13.1</message>
+	</row>
+</result>

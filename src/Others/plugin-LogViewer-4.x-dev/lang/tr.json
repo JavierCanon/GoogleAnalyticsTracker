@@ -1,0 +1,18 @@
+{
+    "LogViewer": {
+        "LogViewer": "Günlük Görüntüleyici",
+        "Severity": "Önem Düzeyi",
+        "AnySeverity": "Tüm Önem Düzeyleri",
+        "SearchPattern": "Arama örüntüsü",
+        "SearchHelp": "Arama büyük küçük harfe duyarlıdır. Kurallı ifadelerin kullanımı etkinleştirilmiş ise '[' gibi karakterler escape biçiminde yazılmalıdır . ('\\[' gibi).",
+        "Tag": "Kod İmi",
+        "RequestId": "İstek Kodu",
+        "Message": "İleti",
+        "NoSupportedLogWriterConfiguredTitle": "Desteklenen bir günlük kaydedici ayarlanmamış",
+        "NoSupportedLogWriterConfiguredMessage": "Daha önce bir günlük kaydedici ayarlanmış ise eski günlüklere bakılabilir ancak yeni günlükler görüntülenmez. %1$sDesteklenen bir günlük kaydediciyi ayarlamak%2$s hakkında bilgi alın. Desteklenen günlük kaydediciler: %3$s",
+        "UseRegExp": "Kurallı ifadeler kullanılsın",
+        "ClickToSearchForThis": "Bu ifadeyi aramak için tıklayın",
+        "CurrentLogConfigIs": "Günlük kaydı şu şekilde ayarlanmış: %s, günlük kaydedici ayarları hakkında ayrıntılı bilgi alın.",
+        "ExportThisSearch": "Bu aramayı %1$s olarak son %2$s kaydı kapsayacak şekilde verin. İndirme işlemi bir kaç dakika sürebilir..."
+    }
+}

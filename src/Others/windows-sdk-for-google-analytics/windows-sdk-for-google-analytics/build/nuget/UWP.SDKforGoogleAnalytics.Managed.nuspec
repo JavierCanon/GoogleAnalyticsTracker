@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata minClientVersion="2.5">    
+    <id>UWP.SDKforGoogleAnalytics.Managed</id>
+    <version>0.0.0-SpecifyVersionOnCommandline</version>
+    <title>Windows SDK for Google Analytics -Windows 10 UWP(C#)</title>
+    <authors>.NET Foundation</authors>
+    <owners>.NET Foundation</owners>
+    <licenseUrl>http://github.com/dotnet/windows-sdk-for-google-analytics/blob/master/LICENSE</licenseUrl>
+    <projectUrl>http://github.com/dotnet/windows-sdk-for-google-analytics</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>C#, Windows 10 SDK for Google Analytics implementing the Google Universal Analytics Measurement Protocol</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>google analtyics universal analytics measurement protocol Win10 UWP Universal C# Managed</tags>    
+    <releaseNotes>More info at http://github.com/dotnet/windows-sdk-for-google-analytics </releaseNotes> 
+    <!--<iconUrl>http://githubusercontent.com/dotnet/WinGASDK/master/TODO_logo_240.png</iconUrl>-->
+  </metadata>  
+
+<files> 
+
+<!-- The lib file gets copied as a reference -->      
+    <file target="lib\uap10.0\"	src="GoogleAnalytics.UWP\bin\release\GoogleAnalytics.dll" />
+    <file target="lib\uap10.0\"	src="GoogleAnalytics.UWP\bin\release\GoogleAnalytics.Core.dll" />
+  
+<!-- intellisense files --> 
+    <file target="lib\uap10.0\"	src="GoogleAnalytics.UWP\bin\release\GoogleAnalytics.xml" />
+    <file target="lib\uap10.0\"	src="GoogleAnalytics.UWP\bin\release\GoogleAnalytics.Core.xml" />
+
+<!-- pdb files  -->
+  <file target="lib\uap10.0\"	src="GoogleAnalytics.UWP\bin\release\GoogleAnalytics.pdb" />
+  <file target="lib\uap10.0\"	src="GoogleAnalytics.UWP\bin\release\GoogleAnalytics.Core.pdb" />
+
+<!-- pri files -->
+  <file target="lib\uap10.0\"	src="GoogleAnalytics.UWP\bin\release\GoogleAnalytics.pri" />
+
+</files> 
+ 
+</package>

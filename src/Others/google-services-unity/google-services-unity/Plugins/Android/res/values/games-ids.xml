@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+  <!-- app_id -->
+  <string name="app_id" translatable="false">263495946164</string>
+  <!-- package_name -->
+  <string name="package_name" translatable="false">so.phonegame.demo</string>
+  <!-- achievement 成就1 -->
+  <string name="achievement_1" translatable="false">CgkItJ_UzNUHEAIQBA</string>
+  <!-- achievement 成就2 -->
+  <string name="achievement_2" translatable="false">CgkItJ_UzNUHEAIQBQ</string>
+  <!-- achievement 成就3 -->
+  <string name="achievement_3" translatable="false">CgkItJ_UzNUHEAIQBg</string>
+  <!-- achievement 成就4 -->
+  <string name="achievement_4" translatable="false">CgkItJ_UzNUHEAIQBw</string>
+  <!-- achievement 成就5 -->
+  <string name="achievement_5" translatable="false">CgkItJ_UzNUHEAIQCA</string>
+  <!-- leaderboard 排行榜1 -->
+  <string name="leaderboard_1" translatable="false">CgkItJ_UzNUHEAIQCQ</string>
+  <!-- leaderboard 排行榜2 -->
+  <string name="leaderboard_2" translatable="false">CgkItJ_UzNUHEAIQCg</string>
+  <!-- event 活动1 -->
+  <string name="event_1" translatable="false">CgkItJ_UzNUHEAIQAQ</string>
+  <!-- event 活动2 -->
+  <string name="event_2" translatable="false">CgkItJ_UzNUHEAIQAg</string>
+  <!-- event 活动3 -->
+  <string name="event_3" translatable="false">CgkItJ_UzNUHEAIQAw</string>
+</resources>

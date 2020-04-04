@@ -1,0 +1,38 @@
+<Alloy>
+    <Window module="xp.ui" title="" id="index" onClose="onClose" onOpen="onOpen">
+
+        <RightNavButton platform="ios" formFactor="handheld">
+            <Button class="reportConfiguratorButton" onClick="toggleReportConfiguratorVisibility"/>
+        </RightNavButton>
+        <RightNavButton platform="mobileweb" formFactor="handheld">
+            <Button class="reportConfiguratorButton" onClick="toggleReportConfiguratorVisibility"/>
+        </RightNavButton>
+
+        <Widget src="org.piwik.headerbar" 
+                id="headerBar" 
+                onBack="close"
+                onActionItem1="toggleReportConfiguratorVisibility"
+                formFactor="handheld"
+                platform="android" />
+
+        <Widget src="org.piwik.headerbar"
+                id="headerBar"
+                onBack="close"
+                formFactor="tablet"
+                platform="android" />
+
+        <Require src="loading_indicator" id="loadingindicator"/>
+
+        <ScrollView id="content">
+            <View class="innerContainer">
+                <Require src="graph" id="reportGraphCtrl"/>
+                <View class="separator"/>
+                <View id="outerContent">
+                    <View id="dimensions"/>
+                    <View id="verticalSeparator"/>
+                </View>
+                <ImageView class="footerLogo"/>
+            </View>
+        </ScrollView>
+    </Window>
+</Alloy>

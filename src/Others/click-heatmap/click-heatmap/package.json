@@ -1,0 +1,21 @@
+{
+  "name": "click-heatmap",
+  "version": "1.0.3",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "click-heatmap": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "yarn.lock"
+  ],
+  "dependencies": {
+    "canvas": "^1.6.5",
+    "get-stdin": "^5.0.1",
+    "meow": "^3.7.0",
+    "nightmare": "^2.10.0",
+    "simpleheat": "^0.4.0"
+  }
+}

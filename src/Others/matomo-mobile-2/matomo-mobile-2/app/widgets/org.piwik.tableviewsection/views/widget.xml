@@ -1,0 +1,7 @@
+<Alloy>
+    <TableViewRow id="index">
+        <View class="headerView">
+            <Label id="title" />
+        </View>
+    </TableViewRow>
+</Alloy>

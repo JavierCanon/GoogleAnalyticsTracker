@@ -1,0 +1,12 @@
+{
+    "VisitorGenerator": {
+        "VisitorGenerator": "Külastuste generaator",
+        "Warning": "Sa oled genereerimas võltse külastusi, mis salvestatakse sinu Matomou andmebaasis.",
+        "ChoiceYes": "Jah, olen kindel!",
+        "Submit": "Jätka",
+        "SelectWebsite": "Vali veebileht",
+        "NbRequestsPerSec": "Päringut sekundis",
+        "DaysToCompute": "Loodavate päevade arv",
+        "NumberOfGeneratedActions": "Genereeritud tegevuste arv"
+    }
+}

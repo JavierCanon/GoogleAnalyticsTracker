@@ -1,0 +1,20 @@
+<Alloy>
+    <Collection src="appAccounts"/>
+    
+    <Window module="xp.ui" id="index" onOpen="onOpen" onClose="onClose">
+        
+        <LeftNavButton platform="ios" formFactor="tablet">
+            <Button class="fakeButtonThatHidesBackButton"/>
+        </LeftNavButton>
+        
+        <ScrollView id="content">
+            <View id="mainView">
+                <View id="headerView">
+                    <ImageView id="logoImage"/>
+                </View>
+                <View id="loginform" />
+                <View class="footerSpacer" />
+            </View>
+        </ScrollView>
+    </Window>
+</Alloy>

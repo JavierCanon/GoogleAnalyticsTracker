@@ -1,0 +1,37 @@
+{
+  "author": "(c) matomo.org",
+  "contributors": [
+    "Thomas Steur <thomas.steur@gmail.com>"
+  ],
+  "name": "findnewtranslationkeys",
+  "keywords" : [
+    "piwik",
+    "mobile",
+    "i18n"
+  ],
+  "description": "Finds new translation keys which are not added to Piwik languagefiles yet",
+  "version": "0.0.1",
+  "homepage": "https://matomo.org",
+  "bugs": "https://github.com/matomo-org/matomo-mobile-2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matomo-org/matomo-mobile-2.git"
+  },
+  "directories" : {
+    "lib" : "lib"
+  },
+  "license":"GPL v3 or later",
+  "main": "./lib/findnewtranslationkeys.js",
+  "bin": {
+    "findnewtranslationkeys": "./bin/findnewtranslationkeys"
+  },
+  "dependencies": {
+    "piwik-client": "0.2.x"
+  },
+  "devDependencies": {
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

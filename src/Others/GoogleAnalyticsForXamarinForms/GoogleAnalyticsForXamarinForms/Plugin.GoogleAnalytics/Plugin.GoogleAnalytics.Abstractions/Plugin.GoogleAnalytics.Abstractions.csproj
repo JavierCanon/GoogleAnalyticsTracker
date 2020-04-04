@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Users\Konstantin\Documents\Visual Studio 2015\Projects\GoogleAnalytics\Plugin.GoogleAnalytics\Plugin.GoogleAnalytics.Abstractions\Plugin.GoogleAnalytics.Abstractions.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>

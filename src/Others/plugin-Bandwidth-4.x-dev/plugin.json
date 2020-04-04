@@ -1,0 +1,26 @@
+{
+ "name": "Bandwidth",
+ "version": "4.0.0",
+ "description": "Monitor Bandwidth for each page, download, and measure overall traffic in bytes",
+ "theme": false,
+ "keywords": ["bandwidth", "filesize", "size", "download"],
+ "license": "GPL v3+",
+ "homepage": "https://matomo.org",
+ "require": {
+    "matomo": ">=4.0.0-b1,<5.0.0-b1"
+ },
+  "support": {
+    "email": "hello@matomo.org",
+    "issues": "https://github.com/matomo-org/plugin-Bandwidth/issues",
+    "forum": "https://forum.matomo.org",
+    "source": "https://github.com/matomo-org/plugin-Bandwidth",
+    "wiki": "https://github.com/matomo-org/plugin-Bandwidth/wiki"
+  },
+ "authors": [
+     {
+         "name": "Matomo",
+         "email": "hello@matomo.org",
+         "homepage": "https://matomo.org"
+     }
+ ]
+}

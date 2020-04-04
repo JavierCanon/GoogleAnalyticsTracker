@@ -1,0 +1,63 @@
+<Alloy>
+    <Window module="xp.ui" id="index" onClose="onClose" onOpen="onOpen">
+        <LeftNavButton platform="mobileweb" formFactor="handheld">
+            <Button class="reportChooserButton" onClick="toggleReportChooserVisibility"/>
+        </LeftNavButton>
+        <LeftNavButton platform="ios" formFactor="handheld">
+            <Button class="reportChooserButton" onClick="toggleReportChooserVisibility"/>
+        </LeftNavButton>
+        <LeftNavButton platform="ios" formFactor="tablet">
+            <Button class="fakeButtonThatHidesBackButton"/>
+        </LeftNavButton>
+        
+        <Widget src="org.piwik.headerbar" 
+                id="headerBar"
+                onHomeItemSelected="toggleReportChooserVisibility"
+                formFactor="handheld"
+                platform="android" />
+
+        <Widget src="org.piwik.headerbar"
+                id="headerBar"
+                formFactor="tablet"
+                platform="android" />
+
+        <ListView id="settingsTable" platform="ios,android" onItemclick="onItemClick">
+            <Templates platform="android">
+                <ItemTemplate name="settingsTemplate">
+                    <Label bindId="title" class="titleLabel" id="settingsLabel"/>
+                    <Label bindId="subtitle" id="settingsValue"/>
+                </ItemTemplate>
+                <ItemTemplate name="checkedTemplate">
+                    <Label bindId="title" class="titleLabel" id="checkedLabel"/>
+                    <ImageView id="checkedIcon"/>
+                </ItemTemplate>
+                <ItemTemplate name="uncheckedTemplate">
+                    <Label bindId="title" class="titleLabel" id="uncheckedLabel"/>
+                    <ImageView id="uncheckedIcon"/>
+                </ItemTemplate>
+            </Templates>
+            <ListSection id="basic">
+                <ListItem id="language" callback="changeLanguage"/>
+                <ListItem id="reportDate" callback="changeReportDate"/>
+                <ListItem id="validateSsl" callback="toggleValidateSsl"/>
+                <ListItem id="tracking" callback="toggleTrackingEnabled"/>
+                <ListItem id="graphs" callback="toggleGraphsEnabled"/>
+            </ListSection>
+            <ListSection id="advanced">
+                <ListItem id="timeout" callback="changeHttpTimeout"/>
+            </ListSection>
+        </ListView>
+        
+        <TableView id="settingsTable" platform="mobileweb">
+            <FooterView>
+                <View class="footer"><Label id="loginHint"/></View>
+            </FooterView>
+            <TableViewRow id="language" onClick="changeLanguage"/>
+            <TableViewRow id="reportDate" onClick="changeReportDate"/>
+            <TableViewRow id="tracking" onClick="toggleTrackingEnabled"/>
+            <TableViewRow id="graphs" onClick="toggleGraphsEnabled"/>
+            <Widget src="org.piwik.tableviewsection" id="advanced"/>
+            <TableViewRow id="timeout" onClick="changeHttpTimeout"/>
+        </TableView>
+    </Window>
+</Alloy>
